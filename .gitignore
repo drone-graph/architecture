@@ -1,0 +1,25 @@
+defunct-ideas-ignore/
+drone-graph/
+landing/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+.mypy_cache/
+.pytest_cache/
+.ruff_cache/
+dist/
+build/
+
+# Local data (Neo4j volumes, uploads, artifacts)
+var/
+
+# Environment
+.env
+.env.*
+!.env.example
+
+# macOS
+.DS_Store
